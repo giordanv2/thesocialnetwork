@@ -118,8 +118,8 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(this, "This is onPause", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        Toast.makeText(this, "This is onDestroy", Toast.LENGTH_SHORT).show()
-    }
+//    override fun onDestroy() {
+//        super.onDestroy()
+//        Toast.makeText(this, "This is onDestroy", Toast.LENGTH_SHORT).show()
+//    }
 }
